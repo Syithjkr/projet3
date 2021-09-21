@@ -1,0 +1,18 @@
+.loading{
+    /* creation du loader */
+    border: 10px solid #9356DC;
+    border-top: 10px solid #99E2D0;
+    border-bottom: 10px solid #FF79DA;
+    border-radius: 50%;
+    -webkit-animation: spin 3s =$$linear infinite;
+    -o-animation: spin 3s linear infinite;
+    width: 100px;
+    height: 100px;
+
+    /* Placement du loader au milieu de la page */
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+}
+
+/* Animation du loader */
