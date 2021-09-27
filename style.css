@@ -1,6 +1,7 @@
+/* Loader de lancement */
 .loadcontent
 {
-    position: absolute;
+    position: absolute ;
     width: 100%;
     height: 100%;
     display:  flex;
@@ -33,8 +34,6 @@
         transform: rotate(360deg);
     }
 }
-
-
 @keyframes loadinger
 {
     100%
@@ -42,4 +41,16 @@
        opacity: 0;
        z-index: -1;
     }
+}
+/* Ajout de la police */
+@font-face {
+    font-family: 'Shrikhand';
+    src: url(Shrikhand/Shrikhand-Regular.ttf);
+}
+.blocpage{
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 2 rem;
+    font-family: "Shrikhand";
+    scroll-behavior: smooth;    
 }
